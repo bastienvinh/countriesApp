@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169CF1BA23C663570029BD44 /* MyCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CF1B923C663570029BD44 /* MyCollectionController.swift */; };
+		169CF1BC23C663BC0029BD44 /* MyControllerWithCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CF1BB23C663BC0029BD44 /* MyControllerWithCollection.swift */; };
+		169CF1BE23C668100029BD44 /* MyCollecCellOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CF1BD23C668100029BD44 /* MyCollecCellOne.swift */; };
+		169CF1C023C7B4880029BD44 /* CollecCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CF1BF23C7B4880029BD44 /* CollecCellTwo.swift */; };
+		169CF1C223C7BBCF0029BD44 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CF1C123C7BBCF0029BD44 /* MyFlowLayout.swift */; };
+		169CF1C423C8FFCE0029BD44 /* CollectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CF1C323C8FFCE0029BD44 /* CollectionHeaderReusableView.swift */; };
 		16B319BA23BE8A7200641D5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B319B923BE8A7200641D5D /* AppDelegate.swift */; };
 		16B319BC23BE8A7200641D5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B319BB23BE8A7200641D5D /* SceneDelegate.swift */; };
 		16B319C323BE8A7200641D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B319C123BE8A7200641D5D /* Main.storyboard */; };
@@ -25,6 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		169CF1B923C663570029BD44 /* MyCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionController.swift; sourceTree = "<group>"; };
+		169CF1BB23C663BC0029BD44 /* MyControllerWithCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyControllerWithCollection.swift; sourceTree = "<group>"; };
+		169CF1BD23C668100029BD44 /* MyCollecCellOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollecCellOne.swift; sourceTree = "<group>"; };
+		169CF1BF23C7B4880029BD44 /* CollecCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollecCellTwo.swift; sourceTree = "<group>"; };
+		169CF1C123C7BBCF0029BD44 /* MyFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
+		169CF1C323C8FFCE0029BD44 /* CollectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderReusableView.swift; sourceTree = "<group>"; };
 		16B319B623BE8A7200641D5D /* countriesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countriesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B319B923BE8A7200641D5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16B319BB23BE8A7200641D5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +116,10 @@
 				16B319DD23C2412200641D5D /* CellTwo.swift */,
 				16B319DF23C2509F00641D5D /* ShadowView.swift */,
 				16B319E423C3C25400641D5D /* MyTableView.swift */,
+				169CF1BD23C668100029BD44 /* MyCollecCellOne.swift */,
+				169CF1BF23C7B4880029BD44 /* CollecCellTwo.swift */,
+				169CF1C123C7BBCF0029BD44 /* MyFlowLayout.swift */,
+				169CF1C323C8FFCE0029BD44 /* CollectionHeaderReusableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,6 +130,8 @@
 				16B319D723C0F27100641D5D /* DetailController.swift */,
 				16B319D123BFCF4900641D5D /* MyCustomTableViewController.swift */,
 				16B319CF23BFCE1A00641D5D /* MyTableViewController.swift */,
+				169CF1B923C663570029BD44 /* MyCollectionController.swift */,
+				169CF1BB23C663BC0029BD44 /* MyControllerWithCollection.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -191,11 +209,17 @@
 			files = (
 				16B319D223BFCF4900641D5D /* MyCustomTableViewController.swift in Sources */,
 				16B319E023C2509F00641D5D /* ShadowView.swift in Sources */,
+				169CF1C423C8FFCE0029BD44 /* CollectionHeaderReusableView.swift in Sources */,
 				16B319D823C0F27100641D5D /* DetailController.swift in Sources */,
 				16B319DE23C2412200641D5D /* CellTwo.swift in Sources */,
+				169CF1BC23C663BC0029BD44 /* MyControllerWithCollection.swift in Sources */,
+				169CF1BE23C668100029BD44 /* MyCollecCellOne.swift in Sources */,
 				16B319DA23C22FEF00641D5D /* MyFirstCell.swift in Sources */,
+				169CF1BA23C663570029BD44 /* MyCollectionController.swift in Sources */,
 				16B319DC23C23A6100641D5D /* RoundedImage.swift in Sources */,
+				169CF1C223C7BBCF0029BD44 /* MyFlowLayout.swift in Sources */,
 				16B319BA23BE8A7200641D5D /* AppDelegate.swift in Sources */,
+				169CF1C023C7B4880029BD44 /* CollecCellTwo.swift in Sources */,
 				16B319D023BFCE1A00641D5D /* MyTableViewController.swift in Sources */,
 				16B319D423BFCFCD00641D5D /* Country.swift in Sources */,
 				16B319E523C3C25400641D5D /* MyTableView.swift in Sources */,
